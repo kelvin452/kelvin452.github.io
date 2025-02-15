@@ -1,0 +1,24 @@
+.contenu{
+    background-color: blue;
+    display: flex;
+    flex-direction: initial;
+    border: 1px solid black;
+    flex-basis: 0;
+}
+aside{
+    display: flex;
+    flex: 30;
+    width: auto;
+    flex-direction: column;
+    background-color: green;
+}
+aside img{
+    max-width: 100%;
+}
+article{
+    display: flex;
+    flex:70;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 3%;
+}

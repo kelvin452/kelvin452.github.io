@@ -1,0 +1,22 @@
+form {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    background-color: white;
+}
+
+
+table, td, th {
+
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+td {
+    color: blue;
+}
+
+select {
+}

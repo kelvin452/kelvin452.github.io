@@ -1,0 +1,55 @@
+
+table, tr, th, td {
+    border: 1px solid #650065;
+
+
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 0;
+    border-radius: 5px;
+    margin: auto;
+}
+
+th {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #9a0000;
+    color: white;
+}
+
+td {
+
+    background: #f7c041
+}
+
+#button {
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    font-family: Hadriatic, sans-serif;
+}
+
+
+tr:last-child td {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+th, td {
+    padding: 0.2em;
+    font-size: 2em;
+}
+
+button {
+    font-size: 0.75em;
+    padding: 0.2em
+}
+
+input[type="text"] {
+    width: 20em;
+    font-size: 0.6em;
+}

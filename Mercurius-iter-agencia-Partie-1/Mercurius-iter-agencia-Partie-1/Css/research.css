@@ -1,0 +1,57 @@
+form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 30px;
+    background-color: white;
+    padding-bottom: 0.5em;
+    box-shadow: 5px 5px 7.5px #650065;
+}
+
+form * {
+
+}
+
+form > h6 {
+    margin: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 15px;
+
+}
+
+#cities {
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 20px;
+    overflow-y: auto;
+    max-height: 5.8em;
+}
+
+#cities input[type="checkbox"] {
+    display: none;
+    visibility: hidden;
+}
+
+#cities label {
+    display: block;
+}
+
+#cities label:has(:checked) {
+    background-color: #9a0000;
+    color: white;
+}
+
+.hotels {
+    font-size: 20px;
+}
+
+.titres {
+    margin-bottom: 0.25em;
+}

@@ -1,0 +1,64 @@
+#charter {
+    border-radius: 5px;
+    box-shadow: 5px 5px 7.5px #650065;
+    background-color: white;
+    padding: 0.5em;
+
+    display: flex;
+    margin: 0 0;
+}
+
+#charter * {
+    /*border: 1px solid black;*/
+}
+
+#charter p {
+    box-shadow: none;
+}
+
+
+#text {
+    display: flex;
+    align-content: center;
+    flex: 90;
+}
+
+#image {
+    flex: 50;
+}
+
+#charter img {
+    width: 100%;
+
+}
+
+#red {
+    background-color: #9a0000;
+    color: white;
+}
+
+#purple {
+    background-color: #650065;
+    color: white;
+}
+
+#yellow {
+    background-color: #f7c041;
+}
+
+#eggshell {
+    background-color: #F0ebd7;
+}
+
+p[id] {
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 90%, 0 80%);
+    width: 1em;
+    padding:  1.5em 1em;
+    margin: 0.5em;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 2em;
+
+}
+
+
